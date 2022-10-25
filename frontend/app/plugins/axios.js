@@ -29,4 +29,3 @@ export default {
         return axios.post(url);
     }
 }
-// dev
