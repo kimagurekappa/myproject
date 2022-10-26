@@ -15,35 +15,13 @@ export default {
 </script>
 
 <template>
-  <div id="app">
-    <h1>{{ msg }}</h1>
-    <h3>You Tube へのアクセス</h3>
-    <ul>
-      <li><a href="https://www.youtube.com/channel/UC3M75vH5Y0kizWKaT2BnNyQ" target="_blank" rel="noopener">You Tube</a></li>
-    </ul>
-    <h3>Qiita へのアクセス</h3>
-    <ul>
-      <li><a href="https://qiita.com/kimagurekappa" target="_blank" rel="noopener">Qiita</a></li>
-    </ul>
-    <h3>Git Hub へのアクセス</h3>
-    <ul>
-      <li><a href="https://github.com/kimagurekappa" target="_blank" rel="noopener">Git Hub</a></li>
-    </ul>
-      <el-menu :default-active="activeIndex" mode="horizontal" router>
-      <el-menu-item index="home" :route="{ name:'home' , path: '/home-page/' }">Home</el-menu-item>
-      <el-menu-item index=about :route="{ name:'about' , path: '/home-page/' }">About</el-menu-item>
-      </el-menu>
-    <router-view />
-
-  </div>
   <el-container>
-    <el-header>Stock Book</el-header>
+    <el-header>きまぐれかっぱ</el-header>
     <el-container>
       <el-aside width="200px">
         <el-menu default-active="home" router>
-          <el-menu-item index="home" :route="{ name: 'home' }">ユーザー情報</el-menu-item>
-          <el-menu-item index="register" :route="{ name: 'register' }">新規アカウント作成</el-menu-item>
-          
+          <el-menu-item index="home" :route="{ name:'home' , path: '/' }">Home</el-menu-item>
+          <el-menu-item index=about :route="{ name:'about' , path: '/about/' }">About</el-menu-item>
         </el-menu>
       </el-aside>
       <el-main>

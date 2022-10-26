@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <h3>ページの更新をすると Home に戻るよ！</h3>
+    <h3>ページの更新をすると Home に戻らなーーーーーーい！</h3>
   </div>
 </template>
 
