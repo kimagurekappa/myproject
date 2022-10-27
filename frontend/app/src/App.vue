@@ -20,8 +20,8 @@ export default {
     <el-container>
       <el-aside width="200px">
         <el-menu default-active="home" router>
-          <el-menu-item index="home" :route="{ name:'home' , path: '/' }">Home</el-menu-item>
-          <el-menu-item index=about :route="{ name:'about' , path: '/about/' }">About</el-menu-item>
+          <el-menu-item index="home" :route="{ name:'home' , path: './' }">Home</el-menu-item>
+          <el-menu-item index=about :route="{ name:'about' , path: './' }">About</el-menu-item>
         </el-menu>
       </el-aside>
       <el-main>

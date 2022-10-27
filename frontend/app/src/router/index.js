@@ -4,12 +4,12 @@ import About from '@/components/About.vue'
 
 const routes = [
     {
-        path: '/',
+        path: '/ikeikekappa.s239.xrea.com/',
         name: 'home',
         component: Home
     },
     {
-        path: '/about/',
+        path: '/ikeikekappa.s239.xrea.com/',
         name: 'about',
         component: About
     }
