@@ -7,7 +7,9 @@ ENV TZ Asia/Tokyo
 
 WORKDIR /app
 
-RUN yarn global add @vue/cli @vue/cli-init vue-router element-plus vue-axios
+RUN yarn global add @vue/cli @vue/cli-init 
+RUN yarn global add vue-axios
+RUN yarn global add element-plus 
 
 
 # vueアプリが作成されいない状態（初期構築時）は手動で以下のコマンドを実行する
