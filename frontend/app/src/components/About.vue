@@ -1,7 +1,7 @@
 <template>
-  <div id="app">
-    <h3>ページの更新をすると Home に戻らなーーーーーーい！</h3>
-    <iframe width="600" height="800" src="https://datastudio.google.com/embed/reporting/9c61d730-10ca-4b06-b469-e7c17c0f6606/page/p_xut5obeexc" frameborder="0" style="border:0" allowfullscreen></iframe>
+  <div id="app" style="line-height:3;">
+    <h3>家計簿・資産公開</h3>
+    <iframe width="600" height="800" src="https://datastudio.google.com/embed/reporting/f40d4459-b984-4deb-8229-27e57bc66b02/page/p_u8dtc0u2yc" frameborder="0" style="border:0" allowfullscreen></iframe>
   </div>
 </template>
 

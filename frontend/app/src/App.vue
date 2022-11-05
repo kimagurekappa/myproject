@@ -41,9 +41,10 @@ export default {
               <el-icon><message /></el-icon>株価
             </template>
             <el-menu-item-group>
+              <el-menu default-active="home" router>
               <!-- <template #title>Home</template> -->
-              <el-menu-item index="2-1">Option 1</el-menu-item>
-              <el-menu-item index="2-2">Option 2</el-menu-item>
+              <el-menu-item index="stockpre" :route="{ name:'stockpre' , path: './' }">株価予報</el-menu-item>
+            </el-menu>
             </el-menu-item-group>
           </el-sub-menu>
           <el-sub-menu index="3">
@@ -52,8 +53,10 @@ export default {
             </template>
             <el-menu-item-group>
               <!-- <template #title>Home</template> -->
-              <el-menu-item index="3-1">Option 1</el-menu-item>
-              <el-menu-item index="3-2">Option 2</el-menu-item>
+              <el-menu default-active="home" router>
+              <!-- <template #title>Home</template> -->
+              <el-menu-item index="kieba" :route="{ name:'keiba' , path: './' }">競馬確率</el-menu-item>
+            </el-menu>
             </el-menu-item-group>
           </el-sub-menu>
         </el-menu>
